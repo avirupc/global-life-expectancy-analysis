@@ -12,6 +12,14 @@ life-exp/
 # Downloaded zipped files
 *.zip
 
+# Initial data folders and files
+death_rate_crude/
+fertility_rate_total/
+female_life_expectancy_at_birth/
+male_life_expectancy_at_birth/
+total_life_expectancy_at_birth/
+/*csv
+
 # Extra files (notes, test codes etc)
 notes*
 
