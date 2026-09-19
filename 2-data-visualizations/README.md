@@ -1,6 +1,6 @@
 # Data Visualizations
 
-The following tasks describe the visualization work to be completed for this project. Each item states the objective and the expected output.
+The following tasks describe the visualization work to be completed for this project.
 
 - Create a time-series line chart showing how life expectancy at birth has changed over the years for each income group.
 - Create a world map where each country is color coded according to how high or low the life expectancy at birth is in 2023.
