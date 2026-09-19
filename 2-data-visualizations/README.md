@@ -22,3 +22,31 @@ Open `./data-visualizations.ipynb` to run the notebook and view the charts.
 - The notebook includes comments explaining key preprocessing steps (for example, how missing values are handled and how the five buckets are computed).
 - Hover text and legends are included in the visualizations to improve interpretability.
 
+## Note about interactive Plotly outputs on GitHub
+
+**Why interactive Plotly plots may not appear on GitHub**  
+GitHub’s notebook renderer does not execute the JavaScript that Plotly uses for interactivity. As a result, interactive charts (hover, zoom, pan, tooltips) will not work in the static notebook preview even if the notebook was executed locally.
+
+**Workaround included in this repository**  
+To make the visualizations accessible to everyone, each Plotly figure is provided in two forms:
+
+- **Interactive HTML** — a standalone HTML file you can open in any web browser to get full interactivity.  
+- **Static image** — a high‑resolution PNG embedded in the notebook so GitHub shows a preview.
+
+### How to view the interactive HTML and static images
+
+There are two HTML files - [world-map.html](./world-map.html), [Sankey.html](./Sankey.html) and two PNG files - [world-map.png](./world-map.png), [Sankey.png](./Sankey.png) stored in this repo.<br>Viewers can do any of the following:
+- Clone the repository:
+
+    ```bash
+    git clone https://github.com/avirupc/global-life-expectancy-analysis.git 
+    cd 2-data-visualizations
+    ```
+    and open the HTML and PNG files
+
+- Download from GitHub:<br>
+  Open the file in the repo, click **Raw** (for HTML) or the image preview, then save the page/image to your computer. 
+
+
+
+
