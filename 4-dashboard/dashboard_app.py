@@ -9,7 +9,7 @@ DATA_PATH = Path(__file__).resolve().parent / "dashboard_df.csv"
 df = pd.read_csv(DATA_PATH)
 
 # Dash app
-app = Dash(__name__)
+app = Dash(__name__, title="Global Life Expectancy Dashboard")
 
 # Dropdown options
 country_options = sorted(df["Country Name"].dropna().unique())
@@ -111,10 +111,12 @@ app.layout = html.Div(
                         - **Average Life Expectancy**: Mean number of years a newborn is expected to live.
                         - **Average Fertility Rate**: Mean number of children born per woman.
                         - **Average Death Rate**: Mean crude death rate (deaths per 1,000 people).
-                        """
+                        """,
+                        style={"fontSize": "13px", "lineHeight": "1.4"},
+
                     ),
                     style={
-                        "width": "40%",
+                        "width": "45%",
                         "backgroundColor": "#f9f9f9",
                         "padding": "10px",
                         "borderRadius": "5px",
