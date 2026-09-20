@@ -11,10 +11,10 @@ As a bonus the dashboard could also have the option to group by income group and
 We have created an interactive dashboard using **Plotly** and **Dash** for exploring how **life expectancy at birth**, **death rate**, and **fertility rate** have evolved over time for countries around the world with each country tagged by **income group** and **region**, and a built-in view of the **gender gap in life expectancy** (female vs. male).
 
 <p align="center">
-  <img src="screenshots/ss1_dashboard.png" width="800" alt="Dashboard overview">
+  <img src="screenshots/ss1_dashboard.png" width="1200" alt="Dashboard overview">
 </p>
 <p align="center">
-  <img src="screenshots/ss2_dashboard.png" width="800" alt="Dashboard overview">
+  <img src="screenshots/ss2_dashboard.png" width="1200" alt="Dashboard overview">
 </p>
 <p align="center"><em>Some snapshots of the default views of the dashboard.</em></p>
 
@@ -87,10 +87,10 @@ Because the charts are standard Plotly figures rendered through Dash, viewers au
 Apart from these, the dashboard includes the usual Plotly features such as zooming and panning, box/lasso selection, compare-on-hover mode, exporting charts to PNG etc.
 
 <p align="center">
-  <img src="screenshots/ss3_dashboard.png" width="800" alt="Dashboard overview">
+  <img src="screenshots/ss3_dashboard.png" width="1200" alt="Dashboard overview">
 </p>
 <p align="center">
-  <img src="screenshots/ss4_dashboard.png" width="800" alt="Dashboard overview">
+  <img src="screenshots/ss4_dashboard.png" width="1200" alt="Dashboard overview">
 </p>
 <p align="center"><em>Some snapshots of the dashboard with filters and group by applied.</em></p>
 
