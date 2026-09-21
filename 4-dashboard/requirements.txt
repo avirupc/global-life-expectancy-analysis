@@ -1,7 +1,7 @@
 # Core dependencies to run the dashboard (dashboard_app.py)
 dash>=4.0,<5.0
 plotly>=5.22,<6.0
-pandas>=3.0.6
+pandas>=2.0,<3.0
 
 # Optional: only needed if you want to re-run the data preparation notebook
 # (dashboard_data_preparation.ipynb) to regenerate dashboard_df.csv
