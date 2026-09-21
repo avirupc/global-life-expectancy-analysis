@@ -77,7 +77,7 @@ You do not need to run anything to explore this project. Every notebook already 
 ```bash
 git clone https://github.com/avirupc/global-life-expectancy-analysis.git
 cd global-life-expectancy-analysis
-python3 -m venv .venv 
+python -m venv .venv # or python3 -m venv .venv
 .venv\Scripts\activate.bat # For Linmux/macOS: source .venv/bin/activate  
 pip install -r requirements.txt
 jupyter notebook
@@ -86,4 +86,4 @@ jupyter notebook
 ## Viewing the dashboard
  
 The dashboard is a live app, not a static notebook, so it **must be run locally** to be viewed. See [`4-dashboard/README.md`](./4-dashboard/README.md) for full step-by-step setup and launch instructions.
- 
+
