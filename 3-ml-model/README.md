@@ -61,7 +61,9 @@ Zimbabwe, Eswatini)
 
 ## Plots
 
-![Forecast error by horizon](model_outputs/error_by_horizon.png)
+<p align="center">
+  <img src="./model_outputs/error_by_horizon.png" width="600" alt="Forecast error by horizon">
+</p>
 
 *Mean absolute error vs. forecast horizon (years past 2010) for each method. All models degrade with horizon and spike around the COVID-19 years (2020–2021); Gradient Boosting is
 the most resilient of the four overall.*
