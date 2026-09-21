@@ -179,7 +179,9 @@ You should see output similar to:
 Dash is running on http://127.0.0.1:8050/
 ```
 
-Open that address in your web browser to view the dashboard. Press `Ctrl+C` in the terminal to stop the server when you're done.
+Open that address in your web browser to view the dashboard. The dashboard may take a few seconds to fully load the charts and KPIs in your browser tab.
+
+Press `Ctrl+C` in the terminal to stop the server when you are done.
 
 ### Step 6 — Deactivate the environment (when finished)
 
