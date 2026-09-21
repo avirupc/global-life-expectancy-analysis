@@ -124,6 +124,14 @@ python -m venv .venv
 .venv\Scripts\activate.bat
 ```
 
+**Windows (PowerShell):**
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+```
+> If PowerShell blocks the activation script, run PowerShell as Administrator once and execute:
+> `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`, then retry.
+
 Once activated, your terminal prompt should be prefixed with `(.venv)`.
 
 ### Step 3 — Install dependencies
