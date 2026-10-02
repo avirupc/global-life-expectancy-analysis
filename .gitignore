@@ -23,4 +23,6 @@ total_life_expectancy_at_birth/
 # Extra files (notes, test codes etc)
 notes*
 
+# training csv (obtained running the ml notebook)
+3-ml-model/model_outputs/train*.csv
 
