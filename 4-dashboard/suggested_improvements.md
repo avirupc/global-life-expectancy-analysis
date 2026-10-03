@@ -1,4 +1,4 @@
-# Dashboard Chart Improvements
+# Suggested Improvements for the Dashboard
 
 1. **Add units and clear axis labels**
    - Replace raw column names with readable labels that include units, such as "Life Expectancy (years)", "Fertility Rate (births per woman)", "Crude Death Rate (deaths per 1,000 people)" and "Gender Gap (years, female minus male)".
